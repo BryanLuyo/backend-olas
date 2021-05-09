@@ -1,0 +1,29 @@
+{
+  "name": "misolas",
+  "version": "1.0.0",
+  "description": "app api misolas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanLuyo/apirestmisolas.git"
+  },
+  "author": "Bryan Andy Luyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanLuyo/apirestmisolas/issues"
+  },
+  "homepage": "https://github.com/BryanLuyo/apirestmisolas#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
