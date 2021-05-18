@@ -4,7 +4,7 @@
   "description": "app api misolas",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,17 @@
   "homepage": "https://github.com/BryanLuyo/apirestmisolas#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
     "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "firebase": "^8.5.0",
+    "firebase-admin": "^9.7.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
-    "socket.io": "^4.0.2"
+    "socket.io": "^4.0.2",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
